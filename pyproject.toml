@@ -1,0 +1,23 @@
+[project]
+name = "gotopy"
+license = "MIT"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "James Delancey",email = "jamesdelanceyjr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typing-extensions (>=4.14.1,<5.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.17.0"
+flake8 = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
