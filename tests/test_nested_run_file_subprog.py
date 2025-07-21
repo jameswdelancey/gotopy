@@ -1,7 +1,7 @@
 import tempfile
 import os
 import unittest
-from gotopy import run_program, ProgramType
+from gotopy2 import run_program, ProgramType
 from typing import Dict, Any
 
 

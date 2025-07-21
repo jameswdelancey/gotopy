@@ -1,5 +1,5 @@
 [project]
-name = "gotopy"
+name = "gotopy2"
 license = "MIT"
 version = "0.1.0"
 description = ""
@@ -13,6 +13,9 @@ dependencies = [
 ]
 
 [tool.poetry]
+packages = [
+    { include = "gotopy2" }
+]
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.17.0"

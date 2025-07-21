@@ -1,7 +1,7 @@
 import os
-from gotopy import run_program
+from gotopy2 import run_program
 from typing import Dict, Any
-from gotopy import ProgramType
+from gotopy2 import ProgramType
 
 
 def step10(g: Dict[str, Any], r: Any) -> None:

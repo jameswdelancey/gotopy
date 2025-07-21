@@ -1,6 +1,6 @@
 import unittest
 from typing import Dict, Any, Callable, List
-from gotopy import run_program, ProgramType
+from gotopy2.gotopy import run_program, ProgramType
 
 
 class TestGotoPy(unittest.TestCase):

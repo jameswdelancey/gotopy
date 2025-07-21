@@ -1,4 +1,4 @@
-# gotopy
+# gotopy2
 
 A minimalist, modern Python interpreter and library for CBMBASIC-style control flow using line numbers, `GOTO`, `GOSUB`, and `RETURN`.
 
@@ -63,7 +63,7 @@ You can run a subprogram from a main program using `run_file`. The subprogram sh
 
 **main.py**
 ```python
-from gotopy import run_program
+from gotopy2 import run_program, ProgramType
 
 def step10(g, r):
     # Import and run a subprogram from the tests directory
